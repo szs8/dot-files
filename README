@@ -1,1 +1,15 @@
 Dropbox based configuration scripts for . files
+-----------------------------------------------
+
+Place the following files in Dropbox/configs/bash and these scripts will automatically create symlinks to os specific files.
+
+bash_profile.shared
+bash_profile.linux
+bash_profile.osx
+
+alias.shared
+alias.linux
+alias.osx
+
+Then run ./configure.bash.sh to set up the symlinks.
+
